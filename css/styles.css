@@ -820,7 +820,7 @@ h1 {
   position: relative;
   width: 370px;
   height: 294px;
-  /* overflow: hidden; */
+  overflow: hidden;
 }
 .overflow {
   width: 370px;
@@ -834,14 +834,14 @@ h1 {
   transition-duration: 250ms;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
-.box:hover .overlay {
+.box:hover .overflow {
   transform: translate(0, 0%);
 }
 
-/* 
-.box:focus .overlay {
+.box:focus .overflow {
   transform: translate(0, 0);
-} */
+} 
+
 .overflow > p {
   font-family: "Roboto";
   font-style: normal;
