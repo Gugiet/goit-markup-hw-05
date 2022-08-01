@@ -819,7 +819,7 @@ h1 {
 .box {
   position: relative;
   width: 370px;
-  height: 294px;
+  /* height: 294px; */
   overflow: hidden;
 }
 .overflow {
@@ -864,4 +864,5 @@ h1 {
   color: var(--second-text-color);
   padding-left: 24px;
   padding-top: 4px;
+  padding-bottom: 20px;
 }
